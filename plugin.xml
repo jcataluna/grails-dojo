@@ -51,19 +51,4 @@
     <resource>org.dojotoolkit.TooltipTagLib</resource>
     <resource>org.dojotoolkit.TreeTagLib</resource>
   </resources>
-  <repositories>
-    <repository name='grailsCentral' url='http://grails.org/plugins' />
-  </repositories>
-  <dependencies />
-  <plugins>
-    <compile>
-      <plugin group='org.grails.plugins' name='hibernate' version='2.2.1' />
-      <plugin group='org.grails.plugins' name='release' version='2.2.1' />
-    </compile>
-    <runtime>
-      <plugin group='org.grails.plugins' name='tomcat' version='2.2.1' />
-    </runtime>
-  </plugins>
-  <runtimePluginRequirements />
-  <behavior />
 </plugin>

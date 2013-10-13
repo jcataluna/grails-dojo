@@ -37,7 +37,7 @@
     For more information about the Dojo Toolkit please visit http://www.dojotoolkit.org/.</description>
 
     <properties>
-        <grails.version>2.2.1</grails.version>
+        <grails.version>2.3.0</grails.version>
     </properties>
 
     <dependencies>
@@ -62,22 +62,22 @@
 		<dependency>
     		<groupId>org.grails.plugins</groupId>
     		<artifactId>release</artifactId>
-    		<version>2.2.1</version>
+    		<version>3.0.1</version>
     		<type>zip</type>
-		</dependency>
-		<dependency>
-  			<groupId>org.grails.plugins</groupId>
-  			<artifactId>tomcat</artifactId>
-  			<version>${grails.version}</version>
-  			<scope>runtime</scope>
-  			<type>zip</type>
-		</dependency>
-		<dependency>
-  			<groupId>org.grails.plugins</groupId>
-  			<artifactId>hibernate</artifactId>
-  			<version>${grails.version}</version>
-  			<type>zip</type>
-		</dependency>
+	</dependency>
+	<dependency>
+  		<groupId>org.grails.plugins</groupId>
+  		<artifactId>tomcat</artifactId>
+  		<version>7.0.42</version>
+  		<scope>runtime</scope>
+  		<type>zip</type>
+	</dependency>
+	<dependency>
+  		<groupId>org.grails.plugins</groupId>
+  		<artifactId>hibernate</artifactId>
+  		<version>3.6.10.1</version>
+  		<type>zip</type>
+	</dependency>
     </dependencies>
 
     <build>
@@ -108,7 +108,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
-                <version>2.4.1</version>
+                <version>2.5</version>
                 <configuration>
                     <filesets>
                         <fileset>
